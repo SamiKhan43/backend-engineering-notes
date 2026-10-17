@@ -10,7 +10,27 @@ This is where I write down what I learn, in simple words, so I can read it again
 
 ## Topics
 
-### [<span style="color: #6366F1;">Authentication and Authorization</span>](authn-authz-guide.md)
+### [Introduction to Backend Development](backend-development-intro.md)
+
+The big picture of backend engineering. Start here. Covered in this note:
+
+- [What backend development is](backend-development-intro.md#1-what-is-backend-development)
+- [The request lifecycle](backend-development-intro.md#2-the-request-lifecycle)
+- [Languages and frameworks](backend-development-intro.md#4-languages-and-frameworks)
+- [APIs (REST, GraphQL, gRPC, WebSockets)](backend-development-intro.md#5-apis)
+- [Databases](backend-development-intro.md#6-databases)
+- [Caching](backend-development-intro.md#8-caching)
+- [Background jobs and queues](backend-development-intro.md#9-background-jobs-and-queues)
+- [File storage](backend-development-intro.md#10-file-storage)
+- [Application architecture](backend-development-intro.md#11-application-architecture)
+- [Concurrency, scalability and performance](backend-development-intro.md#12-concurrency)
+- [Reliability and observability](backend-development-intro.md#14-reliability-and-observability)
+- [Security](backend-development-intro.md#15-security)
+- [Testing](backend-development-intro.md#16-testing)
+- [Git, DevOps, and environments](backend-development-intro.md#17-git-and-collaboration)
+- [Learning roadmap and project ideas](backend-development-intro.md#20-learning-roadmap)
+
+### [Authentication and Authorization](authn-authz-guide.md)
 
 Who you are (authentication) and what you are allowed to do (authorization). Covered in this note:
 
@@ -26,7 +46,7 @@ Who you are (authentication) and what you are allowed to do (authorization). Cov
 - [Practical FastAPI example](authentication-guide.md#12-practical-fastapi-example)
 - [Checklist and common pitfalls](authentication-guide.md#14-checklist-10-things-to-remember)
 
-### <span style="color: #BF616A;">[HTTP and HTTPS](http-https-guide.md)</span>
+### [HTTP and HTTPS](http-https-guide.md)
 
 How the web talks: messages, headers, methods, CORS, status codes, caching, and TLS. Covered in this note:
 
