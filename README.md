@@ -66,4 +66,13 @@ How the web talks: messages, headers, methods, CORS, status codes, caching, and 
 - [SSL, TLS and HTTPS](http-https-guide.md#17-ssl-tls-and-https)
 - [Security headers and what happens when you type a URL](http-https-guide.md#18-security-headers-extra)
 
+### [API Design Checklist](api-design-checklist.md)
+
+A short practical reminder for building safer, more predictable backend APIs.
+
+- Clear route design and consistent contracts
+- Input validation and error handling
+- Idempotency and duplicate-safe actions
+- Security, observability, and scaling basics
+
 _More topics will be added here as I learn them._
