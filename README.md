@@ -10,7 +10,7 @@ This is where I write down what I learn, in simple words, so I can read it again
 
 ## Topics
 
-### [Introduction to Backend Development](backend-development-intro.md)
+### [ 1) Introduction to Backend Development](backend-development-intro.md)
 
 The big picture of backend engineering. Start here. Covered in this note:
 
@@ -30,23 +30,7 @@ The big picture of backend engineering. Start here. Covered in this note:
 - [Git, DevOps, and environments](backend-development-intro.md#17-git-and-collaboration)
 - [Learning roadmap and project ideas](backend-development-intro.md#20-learning-roadmap)
 
-### [Authentication and Authorization](authn-authz-guide.md)
-
-Who you are (authentication) and what you are allowed to do (authorization). Covered in this note:
-
-- [Big picture: AuthN vs session vs AuthZ](authentication-guide.md#1-big-picture)
-- [Sessions (server-side)](authentication-guide.md#3-sessions-server-side)
-- [JWT (token-based)](authentication-guide.md#4-jwt-token-based)
-- [Cookies and their security attributes](authentication-guide.md#5-cookies)
-- [Stateful vs stateless](authentication-guide.md#6-stateful-vs-stateless)
-- [OAuth 2.0](authentication-guide.md#7-oauth-20)
-- [OpenID Connect (OIDC)](authentication-guide.md#8-openid-connect-oidc)
-- [Authorization: ownership checks and RBAC](authentication-guide.md#9-authorization-ownership-and-rbac)
-- [Error messages and timing attacks](authentication-guide.md#10-error-messages-and-timing-attacks)
-- [Practical FastAPI example](authentication-guide.md#12-practical-fastapi-example)
-- [Checklist and common pitfalls](authentication-guide.md#14-checklist-10-things-to-remember)
-
-### [HTTP and HTTPS](http-https-guide.md)
+### [ 2) HTTP and HTTPS](http-https-guide.md)
 
 How the web talks: messages, headers, methods, CORS, status codes, caching, and TLS. Covered in this note:
 
@@ -66,13 +50,38 @@ How the web talks: messages, headers, methods, CORS, status codes, caching, and 
 - [SSL, TLS and HTTPS](http-https-guide.md#17-ssl-tls-and-https)
 - [Security headers and what happens when you type a URL](http-https-guide.md#18-security-headers-extra)
 
-### [API Design Checklist](api-design-checklist.md)
+### [ 3) APIs](api-guide.md)
+ 
+Everything about APIs: design, REST, security, and other styles. Covered in this note:
+ 
+- [What an API is and API styles](api-guide.md#2-api-styles-at-a-glance)
+- [REST principles](api-guide.md#3-rest-principles)
+- [Designing resources and URLs](api-guide.md#4-designing-resources-and-urls)
+- [Methods and status codes in practice](api-guide.md#5-methods-and-status-codes-in-practice)
+- [Request and response design, errors and validation](api-guide.md#7-validation-and-error-handling)
+- [Pagination, filtering, sorting and search](api-guide.md#8-pagination-filtering-sorting-and-search)
+- [Versioning and compatibility](api-guide.md#9-versioning-and-compatibility)
+- [Idempotency, retries and concurrency control](api-guide.md#10-idempotency-retries-and-concurrency-control)
+- [Rate limiting and long-running operations](api-guide.md#11-rate-limiting-and-quotas)
+- [API authentication and security (OWASP API Top 10)](api-guide.md#15-api-security)
+- [GraphQL](api-guide.md#17-graphql)
+- [gRPC](api-guide.md#18-grpc)
+- [Real-time APIs and webhooks](api-guide.md#19-real-time-apis-and-webhooks)
+- [API gateways, documentation (OpenAPI) and testing](api-guide.md#21-documentation-and-contracts-openapi)
+- [Consuming APIs and a full FastAPI example](api-guide.md#24-full-example-a-small-rest-api-fastapi)
 
-A short practical reminder for building safer, more predictable backend APIs.
+### [ 4) Authentication and Authorization](authn-authz-guide.md)
 
-- Clear route design and consistent contracts
-- Input validation and error handling
-- Idempotency and duplicate-safe actions
-- Security, observability, and scaling basics
+Who you are (authentication) and what you are allowed to do (authorization). Covered in this note:
 
-_More topics will be added here as I learn them._
+- [Big picture: AuthN vs session vs AuthZ](authentication-guide.md#1-big-picture)
+- [Sessions (server-side)](authentication-guide.md#3-sessions-server-side)
+- [JWT (token-based)](authentication-guide.md#4-jwt-token-based)
+- [Cookies and their security attributes](authentication-guide.md#5-cookies)
+- [Stateful vs stateless](authentication-guide.md#6-stateful-vs-stateless)
+- [OAuth 2.0](authentication-guide.md#7-oauth-20)
+- [OpenID Connect (OIDC)](authentication-guide.md#8-openid-connect-oidc)
+- [Authorization: ownership checks and RBAC](authentication-guide.md#9-authorization-ownership-and-rbac)
+- [Error messages and timing attacks](authentication-guide.md#10-error-messages-and-timing-attacks)
+- [Practical FastAPI example](authentication-guide.md#12-practical-fastapi-example)
+- [Checklist and common pitfalls](authentication-guide.md#14-checklist-10-things-to-remember)
