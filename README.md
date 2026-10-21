@@ -70,7 +70,28 @@ Everything about APIs: design, REST, security, and other styles. Covered in this
 - [API gateways, documentation (OpenAPI) and testing](api-guide.md#21-documentation-and-contracts-openapi)
 - [Consuming APIs and a full FastAPI example](api-guide.md#24-full-example-a-small-rest-api-fastapi)
 
-### [ 4) Authentication and Authorization](authn-authz-guide.md)
+### [ 4) Databases](database-guide.md)
+ 
+Everything about databases: SQL, design, performance, transactions, NoSQL, and scaling. Covered in this note:
+ 
+- [Types of databases (SQL, NoSQL, and more)](database-guide.md#2-types-of-databases)
+- [Relational model basics: keys, relationships, constraints](database-guide.md#3-relational-model-basics)
+- [SQL fundamentals](database-guide.md#4-sql-fundamentals)
+- [Joins, subqueries, CTEs and window functions](database-guide.md#5-joins-subqueries-ctes-and-window-functions)
+- [Schema design and normalization](database-guide.md#6-schema-design-and-normalization)
+- [Indexes](database-guide.md#7-indexes)
+- [Query optimization](database-guide.md#8-query-optimization)
+- [Transactions and ACID](database-guide.md#9-transactions-and-acid)
+- [Concurrency and isolation levels](database-guide.md#10-concurrency-and-isolation-levels)
+- [Using databases from code (pooling, ORMs, N+1)](database-guide.md#12-using-databases-from-code)
+- [Migrations](database-guide.md#13-migrations)
+- [NoSQL databases (MongoDB, Redis, and more)](database-guide.md#14-nosql-databases)
+- [Replication, partitioning and sharding](database-guide.md#15-replication-partitioning-and-sharding)
+- [Backups, security, and monitoring](database-guide.md#16-backups-and-high-availability)
+- [Design patterns, choosing a database, and roadmap](database-guide.md#19-common-design-patterns)
+
+
+### [ 5) Authentication and Authorization](authn-authz-guide.md)
 
 Who you are (authentication) and what you are allowed to do (authorization). Covered in this note:
 
